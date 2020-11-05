@@ -1,0 +1,24 @@
+.container {
+  margin: 30px;
+}
+.input-container {
+  flex-direction: column;
+  margin: 30px;
+}
+input {
+  border-radius: 3px;
+  margin: 10px
+}
+.visual {
+  margin: 20px 50px;
+}
+.columns {
+  display: flex;
+}
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: .75rem;
+}
